@@ -1,0 +1,99 @@
+/* --- Font and Basic Styling --- */
+body {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    margin: 20px;
+}
+
+/* --- Styles for Heatmap Div --- */
+#heatmap {
+    width: 90%;
+    max-width: 1200px;
+    margin: 30px auto;
+    display: block;
+}
+
+/* --- Heading Styling --- */
+h2 {
+    text-align: center;
+    margin-bottom: 10px;
+    margin-left: 100px;
+    font-weight: 700;
+}
+
+/* --- Tooltip Styling --- */
+.tooltip {
+    position: absolute;
+    text-align: left;
+    padding: 8px 10px;
+    font: 12px 'Roboto', sans-serif;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    border: 0px;
+    border-radius: 4px;
+    pointer-events: none;
+    opacity: 0;
+    white-space: nowrap;
+    transition: opacity 0.2s;
+}
+
+.tooltip b {
+    display: block;
+    margin-bottom: 3px;
+}
+
+.tooltip .highlight-max {
+    color: #86dc86;
+}
+
+.tooltip .highlight-min {
+    color: #f0d68b;
+}
+
+
+/* --- Axes Styling --- */
+.axis-label {
+    font-size: 13px;
+    font-weight: 400;
+    text-anchor: middle;
+    fill: #555;
+}
+
+.x-axis .tick text,
+.y-axis .tick text,
+.y-axis-sport-labels text {
+    font-size: 11px;
+    fill: #444;
+}
+
+.y-axis-sport-labels text {
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.x-axis path.domain,
+.y-axis path.domain {
+    stroke: #888;
+    stroke-width: 1px;
+}
+
+.x-axis .tick line,
+.y-axis .tick line {
+    stroke: none;
+}
+
+/* --- Legend Styling --- */
+.legend {
+    font-size: 10px;
+    fill: #555;
+}
+
+.legend .domain {
+    stroke: none;
+}
+
+.legend .legend-title {
+    font-size: 12px;
+    fill: #333;
+    font-weight: bold;
+    text-anchor: middle;
+}
