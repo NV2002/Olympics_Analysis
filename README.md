@@ -11,4 +11,4 @@ This project visualizes the top 10 Olympic sports by medal count using an intera
 - Python (data preprocessing)
 
 ## Live Demo
-https://NV2002.github.io/olympics-heatmap/
+[https://NV2002.github.io/olympics-heatmap/](https://nv2002.github.io/Olympics_Analysis/)
