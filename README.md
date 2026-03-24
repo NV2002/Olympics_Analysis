@@ -12,7 +12,7 @@ The heatmap is fully interactive: hovering over a cell displays the sport, medal
 - Python (data preprocessing)
 
 ## Dataset
-https://www.kaggle.com/datasets/stefanydeoliveira/summer-olympics-medals-1896-2024
+[Olympics Dataset](https://www.kaggle.com/datasets/stefanydeoliveira/summer-olympics-medals-1896-2024)
 
 ## Live Demo
 [Interactive Heatmap](https://nv2002.github.io/Olympics_Analysis/)
