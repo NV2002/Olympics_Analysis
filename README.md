@@ -1,4 +1,4 @@
-# Olympics Heatmap Visualization (1896–2024)
+# Olympics Data Analysis & Visualization (1896–2024)
 This project visualizes the top 10 Olympic sports by medal count using an interactive D3.js heatmap.
 
 ## Features
